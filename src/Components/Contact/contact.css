@@ -1,0 +1,54 @@
+#maincontact{
+    margin:1px;
+    height: fit-content;
+    position: relative;
+    background-image:url('../../Images/joinus.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color:white;
+    padding-bottom:10px;
+    box-shadow:10px 10px 5px #bfbfbf;
+   
+}
+
+#form{
+    margin-left: 15%;
+    margin-right:15%;
+    width: 70%;
+}
+
+#inputs{
+    backdrop-filter: blur(5px);
+    background-color: rgba(168, 167, 163, 0.75);
+    color: white; 
+}
+
+#input-field{
+    height:350px;
+    padding-top:2px;
+    padding-bottom:300px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(168, 167, 163, 0.75);
+    color: white;
+}
+
+#submitbtn{
+    background-color: transparent;
+    color: white;
+    height: inherit;
+    width: max-content;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 35px;
+    margin: 35px;
+}
+
+#submitbtn:hover{
+    background-color: #292b2c;
+    color: white;
+    border-color: green;
+    border-radius: 15px;
+    -webkit-transform: translateY(-3px);
+	transform: translateY(-3px);
+}

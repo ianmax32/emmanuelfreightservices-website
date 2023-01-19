@@ -1,0 +1,24 @@
+.servicemain{
+    background-color: smokewhite;
+    text-align: center;
+    color: black;
+}
+
+#headingservices{
+    background: url('../../Images/freight.jpg') repeat-x ;
+    position:relative;
+    display: inline-block;
+    object-fit: cover;
+    padding:12px;
+    height:4em;
+    width: 100%;
+    color: black;
+}
+
+
+#found > img{
+    height:350px;
+    width: 400px;
+    color: black; 
+    object-fit: cover;
+}

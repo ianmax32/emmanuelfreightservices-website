@@ -1,0 +1,27 @@
+#about{
+    background: url('../../Images/aboutheader.jpg') 0 0 repeat-x;
+    position:relative;
+    display: inline-block;
+    padding:12px;
+    height:4em;
+    width: 100%;
+    color: white;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    -moz-box-shadow: 0 0 13px rgb(37, 33, 33);
+    -webkit-box-shadow: 0 0 13px #ccc;
+    box-shadow: 0 0 13px rgb(37, 33, 33);;
+}
+
+#offer{
+
+    height:350px;
+    width: 350px;
+    color: black; 
+    object-fit: cover;
+}
